@@ -39,13 +39,11 @@ export function Navbar() {
         <div className="hidden items-center gap-3 md:flex">
           <button
             className="rounded-lg px-4 py-2 text-sm font-semibold text-[#570861] transition-colors hover:bg-purple-50"
-            asChild
           >
             <Link href="/login">Login</Link>
           </button>
           <button
             className="rounded-lg bg-[#570861] px-6 py-2 text-sm font-semibold text-white transition-all duration-200 hover:bg-[#3f0547] hover:scale-105"
-            asChild
           >
             <Link href="/register">Register</Link>
           </button>
@@ -96,13 +94,11 @@ export function Navbar() {
             <div className="flex flex-col gap-2 pt-2">
               <button
                 className="rounded-lg px-4 py-2 text-sm font-semibold text-[#570861] transition-colors hover:bg-purple-50 text-left"
-                asChild
               >
                 <Link href="/login" onClick={() => setMobileOpen(false)}>Login</Link>
               </button>
               <button
                 className="rounded-lg bg-[#570861] px-4 py-2 text-sm font-semibold text-white transition-all duration-200 hover:bg-[#3f0547]"
-                asChild
               >
                 <Link href="/register" onClick={() => setMobileOpen(false)}>Register</Link>
               </button>
